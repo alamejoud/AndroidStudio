@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bordeaux">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/ateam1"
+                        android:gravity="center"
+                        android:text="Test"
+                        android:layout_marginEnd="20dp">
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo1"
+                        android:src="@drawable/argentina_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/ateam2"
+                        android:gravity="center"
+                        android:text="wad"
+                        android:layout_marginEnd="20dp">
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo2"
+                        android:src="@drawable/australia_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/ateam3"
+                        android:gravity="center"
+                        android:text="wad"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo3"
+                        android:src="@drawable/belgium_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/ateam4"
+                        android:gravity="center"
+                        android:text="wad"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo4"
+                        android:src="@drawable/brazil_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/ateam5"
+                        android:layout_marginEnd="20dp">
+
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo5"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/ateam6"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo6"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/ateam7"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo7"
+                        android:src="@drawable/denmark_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/ateam8"
+                        android:layout_marginEnd="20dp">
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo8"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+
+            app:cardElevation="10dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam1"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo9"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam2"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo10"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam3"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo11"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam4"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo12"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/bteam5"
+                        android:gravity="center"
+                        android:text="wad"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo13"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam6"
+                        android:layout_marginEnd="20dp"
+
+                        >
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo14"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam7"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo15"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/bteam8"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo16"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam1"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo17"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam2"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo18"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam3"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo19"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam4"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo20"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam5"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo21"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam6"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo22"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam7"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo23"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/cteam8"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo24"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+
+            app:cardElevation="10dp" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam1"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo25"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam2" android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo26"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam3"
+                        android:layout_marginEnd="20dp"
+                        >
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo27"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam4"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo28"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam5"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo29"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam6"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo30"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam7"
+                        android:layout_marginEnd="20dp"
+                        >
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo31"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="35dp"
+                        android:text="wad"
+                        android:gravity="center"
+                        android:id="@+id/dteam8"
+                        android:layout_marginEnd="20dp">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/logo32"
+                        android:src="@drawable/canada_flag">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

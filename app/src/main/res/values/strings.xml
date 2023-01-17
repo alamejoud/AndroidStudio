@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">World Cup 2022</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="Today">Today</string>
+    <string name="Tournament">Tournament</string>
+    <string name="No_Matches">There are no matches today</string>
+
+    <string name="todays_matches">Today\'s Matches</string>
+
+    <string name="Group_A">Group A</string>
+    <string name="Group_B">Group B</string>
+    <string name="Group_C">Group C</string>
+    <string name="Group_D">Group D</string>
+    <string name="Group_E">Group E</string>
+    <string name="Group_F">Group F</string>
+    <string name="Group_G">Group G</string>
+    <string name="Group_H">Group H</string>
+
+    <string name="Netherlands">Netherlands</string>
+    <string name="Senegal">Senegal</string>
+    <string name="Qatar">Qatar</string>
+    <string name="Ecuador">Ecuador</string>
+
+    <string name="Wales">Wales</string>
+    <string name="England">England</string>
+    <string name="Iran">Iran</string>
+    <string name="United_States">United States</string>
+
+    <string name="Poland">Poland</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Saudi_Arabia">Saudi Arabia</string>
+    <string name="Mexico">Mexico</string>
+
+    <string name="France">France</string>
+    <string name="Denmark">Denmark</string>
+    <string name="Tunisia">Tunisia</string>
+    <string name="Australia">Australia</string>
+
+    <string name="Spain">Spain</string>
+    <string name="Germany">Germany</string>
+    <string name="Japan">Japan</string>
+    <string name="Costa_Rica">Costa Rica</string>
+
+    <string name="Belgium">Belgium</string>
+    <string name="Croatia">Croatia</string>
+    <string name="Morocco">Morocco</string>
+    <string name="Canada">Canada</string>
+
+    <string name="Switzerland">Switzerland</string>
+    <string name="Cameroon">Cameroon</string>
+    <string name="Brazil">Brazil</string>
+    <string name="Serbia">Serbia</string>
+
+    <string name="Portugal">Portugal</string>
+    <string name="Uruguay">Uruguay</string>
+    <string name="South_Korea">South Korea</string>
+    <string name="Ghana">Ghana</string>
+
+    <string name="AL_Bayt">Al Bayt Stadium</string>
+    <string name="location1">Al Khor City</string>
+    <string name="Lusail">Lusail Stadium</string>
+    <string name="location2">Lusail City</string>
+    <string name="Ahmad_Bin_Ali">Ahmad Bin Ali Stadium</string>
+    <string name="location3">Umm Al Afaei</string>
+    <string name="Al_Janoub">Al Janoub Stadium</string>
+    <string name="location4">Al Wakrah</string>
+    <string name="Al_Thumama">Al Thumama Stadium</string>
+    <string name="location5">Doha</string>
+    <string name="Education_City">Education City Stadium</string>
+    <string name="location6">Al Rayyan</string>
+    <string name="Khalifa_International">Khalifa International Stadium</string>
+    <string name="location7">Aspire</string>
+    <string name="Stadium_974">Stadium 974</string>
+    <string name="location8">Ras Abu Aboud</string>
+
+    <string name="home">Home</string>
+    <string name="matches">Matches</string>
+    <string name="teams">Teams</string>
+    <string name="stadiums">Stadiums</string>
+
+    <string name="action_settings">Share</string>
+    <string name="screenshot">Screenshot</string>
+
+    <string name="points">Points</string>
+
+</resources>

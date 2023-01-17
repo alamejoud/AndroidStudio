@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="flag_size">25dp</dimen>
+    <dimen name="flag_size2">30dp</dimen>
+    <dimen name="group_padding">15dp</dimen>
+</resources>
